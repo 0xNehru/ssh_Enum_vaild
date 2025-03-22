@@ -9,12 +9,13 @@ A Bash script to enumerate valid SSH usernames using the CVE-2018-15473 vulnerab
 ✅ Saves valid usernames automatically to valid_usernames.txt
 ✅ Lightweight, requires only Bash and OpenSSH client
 # Usage
+chmod +x exploit.sh
 
-./ssh_enum.sh <target> <port> <username_file> 
+./exploit <target> <port> <username_file> 
 
 Example:
 
-./ssh_enum.sh 192.168.1.1 22 usernames.txt
+./exploit 192.168.1.1 22 usernames.txt
 
 # Requirements
 

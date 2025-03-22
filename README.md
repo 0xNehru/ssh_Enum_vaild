@@ -8,6 +8,10 @@ A Bash script to enumerate valid SSH usernames using the CVE-2018-15473 vulnerab
 ✅ Optimized for speed using parallel processing
 ✅ Saves valid usernames automatically to valid_usernames.txt
 ✅ Lightweight, requires only Bash and OpenSSH client
+
+1. Only displays valid usernames (removes invalid ones from output).
+2. Saves valid usernames to valid_usernames.txt.
+3. Runs faster by executing checks in parallel.
 # Usage
 chmod +x exploit.sh
 
